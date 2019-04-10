@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Страница 1</title>
+  <style>
+   h1 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   h2 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   h3 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   h4 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   h5 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   h6 {
+   line-height: 0.5;
+   font-family: Times New Roman;
+   }
+   mark {
+   background: #FFFF00
+   }
+   .layer1 {
+    float: left;
+    border: 1px;
+    margin-right: 40px;
+    width: 40%;
+   }
+   .layer2 {
+    float: right;
+    border: 1px;
+    margin-left: 40px;
+    width: 40%;
+   }
+  </style>
+ </head>
+ <body>
+  <h1><b>Страница 1</b></h1>
+  <map name="nav">
+  	<area href="page_3.html" shape="rect" coords="0, 0, 80, 100">
+  	<area href="index.html" shape="rect" coords="80, 0, 180, 100">
+  	<area href="page_2.html" shape="rect" coords="180, 0, 250, 100">
+  </map>
+  <img src="navigation_bar.gif" width="250" height="100" usemap="#nav">
+  <hr>
+  <h6>Заголовок шестого уровня</h6>
+  <h5>Заголовок пятого уровня</h5>
+  <h4>Заголовок четвёртого уровня</h4>
+  <h1>Заголовок первого уровня</h1>
+  <h2>Заголовок второго уровня</h2>
+  <h3>Заголовок третьего уровня</h3>
+  <br>
+  <h2><b><ins>Основной текст</ins></b></h2>
+  <font size="2" face="Gulim">Народная мудрость: </font>
+  <font size="3" face="Times New Roman"><strong><q>За все берется, да все не удается.</q></strong></font>
+  <br><br>
+  <font size="4" face="Times New Roman"><mark><b>Луций Сергий Катилина</b></mark></font>
+  <font size="4" face="Times New Roman"><i>(лат. Lucius Sergius Catilina; ок. 108 до н. э. — 62 до н. э.) –</i></font>
+  <br>
+  <font size="4" face="Times New Roman"><b><ins>глава заговора в Древнем Риме, получивший от него свое имя.</ins></b></font>
+  <br><br>
+  <h2><b><ins>Математические формулы</ins></b></h2>
+  <font size="4" face="Times New Roman"><i>a</i><sup>4</sup>+<i>a</i><sup>2</sup><i>b</i><sup>2</sup>+<i>b</i><sup>4</sup> = (<i>a</i><sup>2</sup>-<i>ab</i>+<i>b</i><sup>2</sup>)(<i>a</i><sup>2</sup>+<i>ab</i>+<i>b</i><sup>2</sup>)</font>
+  <br>
+  <font size="4" face="Times New Roman">cos<sup>2</sup>x<sub>1</sub>-cos<sup>2</sup>x<sub>2</sub> = sin(x<sub>1</sub>+x<sub>2</sub>)*sin(x<sub>1</sub>-x<sub>2</sub>)</font>
+  <br>
+  <font size="4" face="Times New Roman">cos<sup>4</sup>x<sub>1</sub>-sin<sup>4</sup>x<sub>1</sub> = cos(2*x<sub>1</sub>)</font>
+  <br><br>
+  <div class="layer1">
+    <h2><b><ins>Ненумерованный список</ins></b></h2>
+    <ul>
+        <li><font size="4" face="Times New Roman"><ins>A few New England states:</ins></font></li>
+        <ul>
+            <li><font size="4" face="Times New Roman"><i>Vermont</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>New Hampshire</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>Maine</i></font></li>
+        </ul>
+        <li><font size="4" face="Times New Roman"><ins>Two Midwestern states:</ins></font>
+        <ul>
+            <li><font size="4" face="Times New Roman"><i>Michigan</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>Indiana</i></font></li>
+        </ul>
+    </ul>
+  </div>
+  <div class="layer2">
+  	<h2><b><ins>Нумерованный список</ins></b></h2>
+    <ol>
+        <li><font size="4" face="Times New Roman"><ins>A few New England states:</ins></font></li>
+        <ol>
+            <li><font size="4" face="Times New Roman"><i>Vermont</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>New Hampshire</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>Maine</i></font></li>
+        </ol>
+        <li><font size="4" face="Times New Roman"><ins>Two Midwestern states:</ins></font>
+        <ol>
+            <li><font size="4" face="Times New Roman"><i>Michigan</i></font></li>
+            <li><font size="4" face="Times New Roman"><i>Indiana</i></font></li>
+        </ol>
+    </ol>
+  </div>
+  <br>
+  <h2><b><ins>Форматирование текста</ins></b></h2>
+  <table border="1">
+   <tr><td colspan="2">первая строка;<br>объединение 1 и 2 столбцов</td><td colspan="3">первая строка;<br>объединение 3, 4, 5 столбцов</td></tr>
+   <tr><td rowspan="3">объединение<br>2, 3, 4 строк;<br>первый столбец</td><td>вторая строка;<br>второй столбец</td><td>вторая строка;<br>третий столбец</td><td>вторая строка;<br>четвёртый столбец</td><td rowspan="5">объединение<br>2, 3, 4, 5, 6 строк;<br>пятый столбец</td></tr>
+   <tr><td>третья квартира;<br>второй столбец</td><td colspan="2">третья строка;<br>объединение 3, 4 стобцов</td></tr>
+   <tr><td>четвертая строка;<br>второй столбец</td><td>четвертая строка;<br>третий столбец</td><td>четвертая строка;<br>четвёртый столбец</td></tr>
+   <tr><td rowspan="2">объединение<br>5, 6 строк;<br>первый столбец</td><td>пятая строка;<br>второй столбец</td><td>пятая строка;<br>третий столбец</td><td>пятая строка;<br>четвёртый столбец</td></tr>
+   <tr><td>шестая строка;<br>второй столбец</td><td>шестая строка;<br>третий столбец</td><td>шестая строка;<br>четвёртый столбец</td></tr>
+  </table>
+  <br>
+  <hr>
+  <font size="4" face="Times New Roman"><i>СПб НИУ ИТМО,</i></font>
+  <br>
+  <font size="4" face="Times New Roman"><i>ФИКТ, кафедра ИТГС,</i></font>
+  <br>
+  <font size="4" face="Times New Roman"><i>Выполнила Шайдуллина Регина.</i></font>
+ </body>
+</html>
