@@ -7,5 +7,5 @@ Year 1
 
 Year 2
 * Data science / Наука о данных
-* Data Structures and Algorithms / Алгоритмы и структуры данных
+* Data structures and algorithms / Алгоритмы и структуры данных
 * Multimedia technologies / Мультимедиа технологии
