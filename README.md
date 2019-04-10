@@ -9,3 +9,5 @@ Year 2
 * Data science / Наука о данных
 * Data structures and algorithms / Алгоритмы и структуры данных
 * Multimedia technologies / Мультимедиа технологии
+
+Assignments' reports (if have been necessary) will be in a different location.
