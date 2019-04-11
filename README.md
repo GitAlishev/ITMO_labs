@@ -11,3 +11,5 @@ Year 2
 * Multimedia technologies / Мультимедиа технологии
 
 Assignments' reports (if have been necessary) are on [Google Drive](https://drive.google.com/drive/u/0/folders/1ubvRbT1udgJRGzUyPNYoWUldIobQECzc).
+
+The repository gets updates as assignments are completed.
