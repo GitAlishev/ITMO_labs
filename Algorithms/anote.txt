@@ -1,0 +1,2 @@
+Tasks are taken from 'Essential Algorithms: A Practical Approach to Computer Algorithms',
+the book by Rod Stephens.
